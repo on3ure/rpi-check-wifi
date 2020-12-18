@@ -1,0 +1,10 @@
+wget https://transfer.weepee.io/1xDuJ/check-uplink.sh
+wget https://transfer.weepee.io/3XXqQ/my-gateway.sh
+
+
+chmod +x check-uplink.sh
+chmod +x my-gateway.sh
+./my-gateway.sh
+
+cat  /var/log/gateway
+./check-uplink.sh
